@@ -1,0 +1,53 @@
+
+common:
+    model:
+        type: mobilenetv2_modified
+        kwargs:
+            bn_group_size: 1
+            bn_sync_stats: True
+            feature_dim: 256
+
+    decoder:
+        type: Decoder
+        kwargs:
+            type: ArcFaceRescale
+            fc_std: 0.001
+            alpha: 64
+            false_alpha: 64
+            margin: 0.5
+            m1: 1
+            m3: 0
+
+    auto_denan: True
+
+
+    workers: 3
+    batch_size: 128
+    shuffle_strategy: 1
+    base_lr: 0.01
+    warmup_steps: 3000
+    warmup_linear_steps: 3000
+    warmup_linear_start_lr: 0.01
+    warmup_lr: 0.1
+    lr_mults: [0.1, 0.1, 0.1]
+    lr_steps: [60000, 90000, 130000]
+    max_iter: 150000
+    momentum: 0.9
+    weight_decay: 0.0005
+    nesterov: True
+    deterministic: True
+    worker_rank: True
+    random_seed: 0
+
+    print_freq: 10
+    save_interval: 50000
+
+augmentation :
+    crop_size : 112
+    final_size : 112
+    crop_center_y_offset : 0
+    scale_aug : 0.00
+    trans_aug : 0.00
+    flip: False
+
+

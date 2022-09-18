@@ -1,0 +1,43 @@
+
+Time: 0.71 s. 
+Time: 2.88 s. 
+files: 469375
+Time: 8.50 s. 
+Feature Shape: (469375 , 512) .
+use_flip True
+(469375, 256) (469375,)
+Finish Calculating 0 template features.
+Finish Calculating 2000 template features.
+Finish Calculating 4000 template features.
+Finish Calculating 6000 template features.
+Finish Calculating 8000 template features.
+Finish Calculating 10000 template features.
+Finish Calculating 12000 template features.
+Finish Calculating 14000 template features.
+Finish Calculating 16000 template features.
+Finish Calculating 18000 template features.
+Finish Calculating 20000 template features.
+Finish Calculating 22000 template features.
+Time: 8.82 s. 
+Finish 0/157 pairs.
+Finish 10/157 pairs.
+Finish 20/157 pairs.
+Finish 30/157 pairs.
+Finish 40/157 pairs.
+Finish 50/157 pairs.
+Finish 60/157 pairs.
+Finish 70/157 pairs.
+Finish 80/157 pairs.
+Finish 90/157 pairs.
+Finish 100/157 pairs.
+Finish 110/157 pairs.
+Finish 120/157 pairs.
+Finish 130/157 pairs.
+Finish 140/157 pairs.
+Finish 150/157 pairs.
+Time: 63.55 s. 
++------------------+-------+-------+--------+-------+-------+-------+
+|     Methods      | 1e-06 | 1e-05 | 0.0001 | 0.001 |  0.01 |  0.1  |
++------------------+-------+-------+--------+-------+-------+-------+
+| insightface-IJBC | 71.06 | 87.29 | 92.61  | 95.51 | 97.54 | 98.98 |
++------------------+-------+-------+--------+-------+-------+-------+

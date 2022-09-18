@@ -1,0 +1,51 @@
+augmentation:
+  crop_center_y_offset: 0
+  crop_size: 112
+  final_size: 112
+  flip: false
+  scale_aug: 0.0
+  trans_aug: 0.0
+common:
+  auto_denan: true
+  base_lr: 0.01
+  batch_size: 128
+  decoder:
+    kwargs:
+      alpha: 64
+      false_alpha: 64
+      fc_std: 0.001
+      m1: 1
+      m3: 0
+      margin: 0.5
+      type: ArcFaceRescale
+    type: Decoder
+  deterministic: true
+  lr_mults:
+  - 0.1
+  - 0.1
+  - 0.1
+  lr_steps:
+  - 40000
+  - 60000
+  - 80000
+  max_iter: 100000
+  model:
+    kwargs:
+      bn_group_size: 1
+      bn_sync_stats: true
+      feature_dim: 256
+    test:
+      output_name: feature
+  momentum: 0.9
+  nesterov: true
+  print_freq: 10
+  random_seed: 0
+  save_interval: 50000
+  shuffle_strategy: 1
+  warmup_linear_start_lr: 0.01
+  warmup_linear_steps: 3000
+  warmup_lr: 0.1
+  warmup_steps: 3000
+  weight_decay: 0.0005
+  worker_rank: true
+  workers: 3

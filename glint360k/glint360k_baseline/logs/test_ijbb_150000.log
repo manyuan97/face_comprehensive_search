@@ -1,0 +1,31 @@
+
+Time: 0.56 s. 
+Time: 1.82 s. 
+files: 227630
+Time: 3.85 s. 
+Feature Shape: (227630 , 512) .
+use_flip True
+(227630, 256) (227630,)
+Finish Calculating 0 template features.
+Finish Calculating 2000 template features.
+Finish Calculating 4000 template features.
+Finish Calculating 6000 template features.
+Finish Calculating 8000 template features.
+Finish Calculating 10000 template features.
+Finish Calculating 12000 template features.
+Time: 3.87 s. 
+Finish 0/81 pairs.
+Finish 10/81 pairs.
+Finish 20/81 pairs.
+Finish 30/81 pairs.
+Finish 40/81 pairs.
+Finish 50/81 pairs.
+Finish 60/81 pairs.
+Finish 70/81 pairs.
+Finish 80/81 pairs.
+Time: 36.49 s. 
++------------------+-------+-------+--------+-------+-------+-------+
+|     Methods      | 1e-06 | 1e-05 | 0.0001 | 0.001 |  0.01 |  0.1  |
++------------------+-------+-------+--------+-------+-------+-------+
+| insightface-IJBB | 36.30 | 79.83 | 90.92  | 95.12 | 97.45 | 98.93 |
++------------------+-------+-------+--------+-------+-------+-------+
