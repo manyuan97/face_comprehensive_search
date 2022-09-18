@@ -1,6 +1,6 @@
 # Towards Robust Face Recognition with Comprehensive Search
 
-Here we provide our paper (Towards Robust Face Recognition with Comprehensive Search, accepeted by ECCV2022)'s search process log, model checkpoint, and test log. At this stage, the search code is not yet available, and you can perform a joint search based on any open source rl-driven search framework for data cleaning, model structure, and parameters of the loss function.
+Here we provide our paper ([Towards Robust Face Recognition with Comprehensive Search](https://arxiv.org/abs/2208.13600), accepeted by ECCV2022)'s search process log, model checkpoint, and test log. At this stage, the search code is not yet available, and you can perform a joint search based on any open source rl-driven search framework for data cleaning, model structure, and parameters of the loss function.
 
 
 -------
